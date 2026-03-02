@@ -6,7 +6,7 @@ public class FunctionChp {
         System.out.println("Hello, World!");
     }
 
-    public static int calculateSum(int num1, int num2) {
+    public static int calculateSum(int num1, int num2) {//parameter or formsl parameters
         
         int sum = num1 + num2;
         return sum;
@@ -18,7 +18,7 @@ public class FunctionChp {
         int num1 = sc.nextInt();
         System.out.print("Enter second number: ");
         int num2 = sc.nextInt();
-        int sum = calculateSum(num1, num2);
+        int sum = calculateSum(num1, num2); //arguments or actual parameters
         System.out.println("sum is : " + sum);
         
 
