@@ -17,7 +17,7 @@ public class TrappedRainWater{
         rightMax[i] = Math.max(height[i], rightMax[i+1]);
     }
    // Loop
-    int trappedWater = 0;
+int trappedwater = 0;
     for(int i=0; i<height.length; i++){
         //waterLevel = min(leftMaxBoundary, rightMaxBoundary)
         int waterLevel = Math.min(leftMax[i], rightMax[i]);
